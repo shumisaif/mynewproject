@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="7487" started-at="2021-10-13T18:22:15Z" finished-at="2021-10-13T18:22:23Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.MyRunnerclass@5f8edcc5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Nopackage" duration-ms="7487" started-at="2021-10-13T18:22:15Z" finished-at="2021-10-13T18:22:23Z">
+      <class name="com.runner.MyRunnerclass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.MyRunnerclass@5f8edcc5]" name="setUpClass" is-config="true" duration-ms="255" started-at="2021-10-13T18:22:15Z" finished-at="2021-10-13T18:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.MyRunnerclass@5f8edcc5]" name="runScenario" duration-ms="7151" started-at="2021-10-13T18:22:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-13T18:22:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User login with valid username & verify the page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User able to login with valid username & password]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.MyRunnerclass@5f8edcc5]" name="tearDownClass" is-config="true" duration-ms="65" started-at="2021-10-13T18:22:23Z" finished-at="2021-10-13T18:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.MyRunnerclass -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
